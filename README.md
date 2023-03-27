@@ -16,11 +16,11 @@ Open your preferred code editor and modify the React app's code to import and us
 
 Make sure to save your changes.
 
-View the app in your browser by navigating to "http://localhost:5173/".
+View the app in your browser by navigating to "http://localhost:5173".
 
 
 
-Future Developemnt for the System can use these,
+#Future Developemnt for the System can use these,
 
 Identifying the different microservices in the "own_javascript_ai" project will depend on the specific architecture and design of the project. Here are some examples of potential microservices:
 
@@ -36,22 +36,22 @@ Containerize the microservices:
 Here's an example Dockerfile for containerizing the AI model microservice:
 
 
-# Specify base image
+#Specify base image
 FROM python:3.8-slim-buster
 
-# Install dependencies
+#Install dependencies
 RUN apt-get update && apt-get install -y libgl1-mesa-glx
 
-# Copy code and requirements
+#Copy code and requirements
 COPY requirements.txt app/
 COPY app.py app/
 
-# Install Python dependencies
+#Install Python dependencies
 WORKDIR /app
 RUN pip install -r requirements.txt
 
-# Expose the API port
+#Expose the API port
 EXPOSE 5000
 
-# Run the API server
+#Run the API server
 CMD ["python", "app.py"]
