@@ -18,6 +18,7 @@ Make sure to save your changes.
 
 View the app in your browser by navigating to "http://localhost:5173".
 
+![Own_ai1](https://user-images.githubusercontent.com/96631498/227827279-0dec96b8-6972-42e3-a890-37a753819f1a.PNG)
 
 
 # Future Developemnt for the System can use these,
