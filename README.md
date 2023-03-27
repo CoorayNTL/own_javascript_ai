@@ -21,7 +21,7 @@ View the app in your browser by navigating to "http://localhost:5173".
 ![Own_ai1](https://user-images.githubusercontent.com/96631498/227827279-0dec96b8-6972-42e3-a890-37a753819f1a.PNG)
 
 
-# Future Developemnt for the System can use these,
+# Future Developement for the @own_javascript_ai,
 
 Identifying the different microservices in the "own_javascript_ai" project will depend on the specific architecture and design of the project. Here are some examples of potential microservices:
 
